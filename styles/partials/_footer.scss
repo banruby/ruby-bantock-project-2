@@ -1,0 +1,10 @@
+footer {
+    width: 100%;
+    background: $dark;
+    padding: 1px;
+    p {
+        text-align: center;
+        font-family: $base-font;
+        color: $light;
+    }
+}

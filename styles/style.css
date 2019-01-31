@@ -133,4 +133,42 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   box-sizing: border-box; }
 
 .wrapper {
-  max-width: 1280px; }
+  max-width: 1280px;
+  margin: 0 auto; }
+
+html {
+  font-size: 125%; }
+
+h1, h2, h3, h4, ul, li {
+  padding: 0;
+  margin: 0; }
+
+ul, li {
+  list-style: none; }
+
+img {
+  display: block;
+  width: 100%; }
+
+section.gallery {
+  background: white; }
+
+ul.gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 100px 0; }
+
+footer {
+  width: 100%;
+  background: #2c2c2c;
+  padding: 1px; }
+  footer p {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    color: #f0efed; }
+
+/*# sourceMappingURL=style.css.map */
