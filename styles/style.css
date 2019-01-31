@@ -274,6 +274,49 @@ section.planted {
   section.planted p {
     margin: 25px 0; }
 
+section.workshops {
+  width: 100%; }
+  section.workshops div {
+    width: 40%; }
+  section.workshops h3 {
+    font-size: 32px;
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-family: "Josefin Sans", sans-serif; }
+  section.workshops div.workshops, section.workshops div.discover {
+    width: 100%;
+    height: auto;
+    position: relative; }
+  section.workshops div.discover {
+    margin-top: 50px; }
+  section.workshops div.workshops-text {
+    margin: 0 5% 0 55%;
+    padding-top: 50px; }
+  section.workshops div.discover-text {
+    margin: 0 55% 0 5%;
+    text-align: right;
+    padding: 30px 0; }
+  section.workshops div.flower-container-left {
+    background: url(../assets/left-flowers.jpg) no-repeat center;
+    background-size: cover;
+    width: 45%;
+    position: absolute;
+    top: -15%;
+    left: 0;
+    bottom: 20px;
+    -webkit-box-shadow: 20px 20px #f8e71c;
+    box-shadow: 20px 20px #f8e71c; }
+  section.workshops div.flower-container-right {
+    background: url(../assets/right-flowers.jpg);
+    width: 45%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: -15%;
+    -webkit-box-shadow: -20px 20px #f8e71c;
+    box-shadow: -20px 20px #f8e71c; }
+
 section.gallery {
   background: white; }
 

@@ -1,0 +1,52 @@
+section.workshops {
+    width: 100%;
+    div {
+        width: 40%;
+        p {
+            // width: 90%;
+        }
+    }
+    h3 {
+        @include font-size(32);
+        letter-spacing: 1px;
+        font-weight: bold;
+        font-family: $heading-font;
+    }
+    div.workshops, div.discover {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    div.discover {
+        margin-top: 50px;
+    }
+    div.workshops-text {
+        margin: 0 5% 0 55%;
+        padding-top: 50px;
+    }
+    div.discover-text {
+        margin: 0 55% 0 5%;
+        text-align: right;
+        padding: 30px 0;
+    }
+    div.flower-container-left {
+        background: url(../assets/left-flowers.jpg) no-repeat center;
+        background-size: cover;
+        width: 45%;
+        position: absolute;
+        top: -15%;
+        left: 0;
+        bottom: 20px;
+        box-shadow: 20px 20px $highlight;
+    }
+    div.flower-container-right {
+        background: url(../assets/right-flowers.jpg);
+        width: 45%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: -15%;
+        box-shadow: -20px 20px $highlight;
+    }
+}
+
