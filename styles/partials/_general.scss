@@ -5,6 +5,7 @@
 
 html {
     font-size: 125%;
+    font-family: $base-font;
 }
 
 h1, h2, h3, h4, ul, li {
@@ -19,4 +20,24 @@ ul, li {
 img {
     display: block;
     width: 100%;
+}
+
+a {
+    text-decoration: none;
+    &:hover {
+        color: $light;
+    }
+    &:visited {
+        color: $light;
+    }
+    &:focus {
+        color: $highlight;
+    }
+    &:active {
+        color: $highlight;
+    }
+}
+
+p {
+    line-height: 32px;
 }

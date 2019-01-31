@@ -6,4 +6,8 @@ ul.gallery {
     display: flex;
     justify-content: space-between;
     padding: 100px 0;
+    & :nth-child(2) {
+        margin: 0 3.125%;
+    }
 }
+

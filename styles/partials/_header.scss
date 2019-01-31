@@ -1,0 +1,71 @@
+header {
+    background: url(../assets/home-image-1.jpg) no-repeat;
+    background-size: cover;
+    color: $light;
+    height: 100vh;
+    padding: 1px;
+    position: relative;
+    nav.wrapper {
+        width: 100%;
+        display: flex;
+        // justify-content: center;
+        align-items: center;
+    }
+    h1 {
+       @include font-size(166);
+       font-family: $heading-font;
+       padding-left: 25%;
+       line-height: 125px;
+       width: auto;
+       z-index: 10;
+        span {
+            color: $highlight;
+        }
+    }
+    nav {
+        display: flex;
+        width: 50%;
+        margin-top: 25px;
+        font-family: $heading-font;
+    }
+    ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 75%;
+    }
+    ul li {
+        display: inline;
+        text-transform: uppercase;
+        a {
+            padding: 20px;
+        }
+    }
+
+    h2 {
+        font-family: $heading-font;
+        @include font-size(40);
+        width: 25%;
+
+    }
+    .home a {
+        color: $highlight;
+    }
+}
+
+.title-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.header-image-container {
+    background: url(../assets/header-box.jpg) no-repeat;
+    background-size: cover;
+    width: 40%;
+    height: 75%;
+    position: absolute;
+    right: 0;
+    bottom: -75px;
+}

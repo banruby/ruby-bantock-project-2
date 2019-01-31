@@ -1,7 +1,13 @@
 @import "partials/setup";
-@import "partials/general";
+
+@import "partials/mixins";
 @import "partials/fonts";
 @import "partials/colors";
 
+@import "partials/general";
+@import "partials/button";
+
+@import "partials/header";
+@import "partials/what-is-planted";
 @import "partials/gallery";
 @import "partials/footer";

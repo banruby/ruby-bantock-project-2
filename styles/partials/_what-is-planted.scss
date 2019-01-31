@@ -1,0 +1,18 @@
+section.planted {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px 0;
+    background-color: $light;
+    div {
+        width: 75%;
+        text-align: center;
+    }
+    h2 {
+        font-family: $heading-font;
+        @include font-size(56.3);
+    }
+    p {
+        margin: 25px 0;
+    }
+}
