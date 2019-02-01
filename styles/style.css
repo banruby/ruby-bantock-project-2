@@ -317,6 +317,101 @@ section.workshops {
     -webkit-box-shadow: -20px 20px #f8e71c;
     box-shadow: -20px 20px #f8e71c; }
 
+section.icons {
+  background: #f0efed;
+  padding: 125px 0 75px 0; }
+  section.icons .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  section.icons div.icon-container {
+    width: 48%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    section.icons div.icon-container .icon-text {
+      margin-left: 20px; }
+  section.icons div.icon-background {
+    border-radius: 50%;
+    background-color: #f8e71c;
+    -ms-flex-item-align: start;
+    align-self: start;
+    width: 50px;
+    height: 50px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50px;
+    flex: 0 0 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    section.icons div.icon-background i {
+      padding: 5px;
+      font-size: 25px;
+      font-size: 1.25rem; }
+  section.icons div.icon-text {
+    -webkit-box-flex: 1;
+    -ms-flex: auto;
+    flex: auto;
+    padding-top: 10px; }
+  section.icons h3 {
+    font-size: 32px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: "Josefin Sans", sans-serif; }
+
+section.founder {
+  background-color: #f0efed; }
+  section.founder .flower-container {
+    width: 100%;
+    height: 500px;
+    background: url(../assets/banner-image.jpg) no-repeat center center; }
+  section.founder .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 100px 0; }
+  section.founder .founder-image-container {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    -webkit-box-shadow: 25px 25px #f8e71c;
+    box-shadow: 25px 25px #f8e71c; }
+  section.founder .founder-text {
+    margin-left: 10%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+    section.founder .founder-text button {
+      -ms-flex-item-align: start;
+      align-self: flex-start; }
+  section.founder h2 {
+    font-size: 42px;
+    font-size: 2.1rem;
+    letter-spacing: 1px;
+    font-weight: 600; }
+
 section.gallery {
   background: white; }
 

@@ -1,0 +1,41 @@
+section.icons {
+    background: $light;
+    padding: 125px 0 75px 0;
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    div.icon-container {
+        width: 48%;
+        display: flex;
+        .icon-text {
+            margin-left: 20px;
+        }
+    }
+    div.icon-background {
+        border-radius: 50%;
+        background-color: $highlight;
+        align-self: start;
+        width: 50px;
+        height: 50px;
+        flex: 0 0 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        i {
+            padding: 5px;
+            @include font-size(25);
+        }
+    }
+    div.icon-text {
+        flex: auto;
+        padding-top: 10px;
+    }
+    h3 {
+        @include font-size(32);
+        font-weight: bold;
+        letter-spacing: 1px;
+        font-family: $heading-font;
+    }
+}
