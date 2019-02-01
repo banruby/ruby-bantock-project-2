@@ -1,0 +1,37 @@
+aside {
+    width: 25%;
+    background-color: white;
+    align-self: flex-start;
+    margin-top: 100px;
+    padding: 20px;
+    .aside-image-container {
+        direction: rtl;
+    }
+    img {
+        width: 130%;
+        position: relative;
+        bottom: 40px;
+    }
+    h4 {
+        font-family: $heading-font;
+        text-transform: capitalize;
+    }
+    a {
+        color: $lowlight;
+        font-style: italic;
+        font-weight: 600;
+        &:hover {
+            color: $highlight;
+        }
+    }
+    ul {
+    padding-left: 20px;
+    margin-top: 20px;
+        li {
+            list-style-type: disc;
+            line-height: 32px;
+        }
+    }
+    
+        
+}

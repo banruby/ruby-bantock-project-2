@@ -1,7 +1,21 @@
 header.blog {
-    height: 50vh;
+    height: 60vh;
     background: url(../assets/blog-header-1.jpg) center no-repeat;
     background-size: cover;
+    position: relative;
+    .nav-container {
+        width: 100%;
+        background-color: $dark;
+        padding: 5px 0;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        position: absolute;
+        top: 0;
+    }
+    nav {
+        margin-top: 0;
+    }
     h1 {
         font-family: $heading-font;
         @include font-size(80);
@@ -9,19 +23,7 @@ header.blog {
         line-height: 92px;
         color: $highlight;
         padding: 0;
-    }
-    nav {
-        background-color: $lowlight;
-        width: 100%;
-        margin-top: 0;
-    }
-    nav .wrapper {
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        ul {
-            margin-right: 25%;
-        }
+        margin-bottom: 40px;
     }
     .home a {
         color: white; 
@@ -30,8 +32,12 @@ header.blog {
         color: $highlight;
     }
     .blog-wrapper {
-        height: 70%;
+        height: 100%;
         display: flex;
         align-items: flex-end;
+    }
+    h2 {
+        flex: 0 0 25%;
+        padding: 5px 0;
     }
 }

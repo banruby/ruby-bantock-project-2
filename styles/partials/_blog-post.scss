@@ -1,0 +1,40 @@
+main.blog {
+    background-color: $light;
+    .wrapper {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    .blog-content {
+        width: 70%;
+        position: relative;
+        padding-top: 16%;
+    }
+    .blog-image-container {
+        position: relative;
+        top: -20%;
+        left: 20px;
+        img {
+            box-shadow: -20px 20px $highlight;
+            width: 105%;
+        }
+    } 
+    .blog-text {
+        border-left: 5px solid $highlight;
+        border-bottom: 5px solid $highlight;
+        padding: 125px 0 15px 40px;
+        margin-top: -450px;
+    }
+    h2 {
+        @include font-size(42);
+        letter-spacing: 1.3px;
+        font-family: $heading-font;
+    }
+    p.date {
+        color: $lowlight;
+        span {
+            font-weight: bold;
+            font-style: italic;
+        }
+    }
+}

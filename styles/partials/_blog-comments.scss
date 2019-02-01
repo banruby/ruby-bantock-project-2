@@ -1,0 +1,12 @@
+.blog-comments {
+    padding: 40px 0 40px 40px;
+    h3 {
+        @include font-size(32);
+        letting-spacing: 1px;
+        font-family: $heading-font;
+        margin-bottom: 40px;
+    }
+    .comment-container {
+        display: flex;
+    }
+}
