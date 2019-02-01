@@ -1,0 +1,37 @@
+header.blog {
+    height: 50vh;
+    background: url(../assets/blog-header-1.jpg) center no-repeat;
+    background-size: cover;
+    h1 {
+        font-family: $heading-font;
+        @include font-size(80);
+        font-weight: 600;
+        line-height: 92px;
+        color: $highlight;
+        padding: 0;
+    }
+    nav {
+        background-color: $lowlight;
+        width: 100%;
+        margin-top: 0;
+    }
+    nav .wrapper {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        ul {
+            margin-right: 25%;
+        }
+    }
+    .home a {
+        color: white; 
+    }
+    .blog a {
+        color: $highlight;
+    }
+    .blog-wrapper {
+        height: 70%;
+        display: flex;
+        align-items: flex-end;
+    }
+}
