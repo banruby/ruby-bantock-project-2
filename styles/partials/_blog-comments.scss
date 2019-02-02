@@ -8,5 +8,24 @@
     }
     .comment-container {
         display: flex;
+        &:nth-of-type(2) {
+            margin-top: 50px;
+        }
     }
+    img {
+        align-self: flex-start;
+        margin: 5px 40px 0 0;
+        width: 50%;
+
+    }
+    p {
+        margin-top: 10px;
+        
+        &:first-child {
+            margin: 0;
+            color: $lowlight;
+            font-family: $heading-font;
+            font-weight: 600;
+        }
+    }  
 }

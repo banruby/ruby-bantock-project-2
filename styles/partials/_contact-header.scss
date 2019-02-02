@@ -1,4 +1,4 @@
-header.blog {
+header.contact {
     height: 60vh;
     background: url(../assets/blog-header-1.jpg) center no-repeat;
     background-size: cover;
@@ -28,9 +28,12 @@ header.blog {
         margin-bottom: 40px;
     }
     .home a {
-        color: white; 
+        color: $light; 
     }
     .blog a {
+        color: $light;
+    }
+    .contact a {
         color: $highlight;
     }
     .blog-wrapper {

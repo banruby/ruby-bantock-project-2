@@ -1,0 +1,52 @@
+form {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: $heading-font;
+    
+    input[type="text"] {
+        width: 48%;
+        background-color: $light;
+        border: none;
+        border-bottom: 2px solid $button-color;
+        margin: 20px 0;
+        padding: 20px;
+        font-weight: 300;
+        &:focus {
+            border: 2px solid $highlight;
+        }
+    }
+    input[type="email"] {
+        width: 48%;
+        background-color: $light;
+        border: none;
+        border-bottom: 2px solid $button-color;
+        margin: 20px 0;
+        padding: 20px;
+        font-weight: 300;
+        &:focus {
+            border: 2px solid $highlight;
+        }
+    }
+    textarea {
+        width: 100%;
+        background-color: $light;
+        border: 2px solid $button-color;
+        margin: 20px 0;
+        padding: 20px;
+        font-weight: 300;
+        &:focus {
+            border: 2px solid $highlight;
+        }
+    }
+    button {
+        width: 100%;
+        margin: 20px 0 100px 0;
+        transition: all 1s ease;
+        &:focus {
+            background-color: $highlight;
+            color: $dark;
+        }
+    }
+}
