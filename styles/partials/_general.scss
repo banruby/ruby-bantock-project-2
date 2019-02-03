@@ -44,3 +44,16 @@ a {
 p {
     line-height: 32px;
 }
+
+a.skip-link {
+  position: absolute;
+  padding: 5px;
+  left: -1000px;
+  top: 5px;
+  z-index: 999;
+  background: white;
+  color: black;
+  &:focus {
+     left: 0; 
+  }
+}
