@@ -40,7 +40,8 @@ section.workshops {
         box-shadow: 20px 20px $highlight;
     }
     div.flower-container-right {
-        background: url(../assets/right-flowers.jpg);
+        background: url(../assets/right-flowers.jpg) no-repeat center;
+        background-size: cover;
         width: 45%;
         position: absolute;
         top: 0;

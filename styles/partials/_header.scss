@@ -2,21 +2,20 @@ header {
     background: url(../assets/home-image-1.jpg) no-repeat;
     background-size: cover;
     color: $light;
-    height: 100vh;
+    height: 80vh;
+    max-height: 800px;
     padding: 1px;
     position: relative;
     nav.wrapper {
         width: 100%;
         display: flex;
-        // justify-content: center;
         align-items: center;
     }
     h1 {
        @include font-size(166);
        font-family: $heading-font;
-       padding-left: 25%;
        line-height: 125px;
-       width: auto;
+       width: 675px;
        z-index: 10;
         span {
             color: $highlight;
@@ -40,6 +39,12 @@ header {
         a {
             padding: 20px;
         }
+    }
+    nav.home-nav i {
+        display: none;
+        @include font-size(50);
+        margin: 0;
+        padding: 0;
     }
 
     h2 {

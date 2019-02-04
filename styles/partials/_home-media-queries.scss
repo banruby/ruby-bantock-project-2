@@ -1,0 +1,173 @@
+@media only screen and (max-width: 1150px) {
+    .nav-wrapper nav {
+        width: 100%;
+    }
+    section.workshops {
+        div.discover-text {
+            padding: 75px 0;
+        }
+        div.workshops-text {
+            padding: 75px 0;
+        }
+    } 
+    section.icons {
+        padding: 200px 0 125px 0;
+        div.icon-container {
+            margin-top: 25px;
+        }
+    }
+    section.founder {
+        .founder-image-container {
+            flex: 1 1 25%;
+        }
+        .founder-text {
+            width: 50%;
+        }
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    header.home {
+        h1 {
+            @include font-size(120);
+            width: 500px;
+            line-height: 90px;
+        }
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .wrapper {
+        width: 95%;
+    }
+    section.founder {
+        .wrapper {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .flower-container {
+            height: 350px;
+            background-position: center 90%;
+        }
+        div.founder-image-container {
+            width: 65%;
+            align-self: center;
+        }
+        div.founder-text {
+            width: 75%;
+            margin: 75px 0 0 0;
+            text-align: center;
+            button {
+                align-self: center;
+            }
+        }  
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    header.home {
+        h1 {
+            @include font-size(80);
+            width: 350px;
+            line-height: 60px;
+        }
+        h2 {
+            display: none;
+        }
+        ul {
+            width: 100%;
+        }
+    }
+    section.workshops {
+        div.flower-container-left {
+            width: calc(90% - 20px);
+            bottom: 80%;
+        }
+        div.workshops-text {
+            padding: 40% 0 0 0;
+            margin: 0 10%;
+            width: 80%;
+            text-align: center;
+        }
+        div.flower-container-right {
+            width: calc(90% - 20px);
+            top: 80%;
+        }
+        div.discover-text {
+            padding-bottom: 40%;
+            margin: 0 10%;
+            width: 80%;
+            text-align: center;
+        }
+    }
+    section.icons {
+        div.icon-container {
+            width: 100%;
+            padding: 0 20px;
+        }
+    }
+    section.gallery {
+        li:nth-of-type(3) {
+            display: none;
+        }
+        li:nth-of-type(2) {
+            margin-right: 0;
+        }
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    header.home {
+        max-height: 600px;
+        nav {
+            justify-content: flex-end;
+        }
+        ul {
+            display: none;
+        }
+        nav.home-nav i {
+            display: block;
+            text-align: right;
+            padding: 0 10px;
+        }
+        h1 {
+            @include font-size(60);
+            width: 250px;
+            line-height: 45px;
+        }
+    }
+    section.gallery {
+        ul {
+            justify-content: center;
+        }
+        li:nth-of-type(2) {
+            display: none;
+            width: 100%;
+        }
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .wrapper {
+        width: 100%;
+    }
+    section.workshops {
+        div.workshops-text {
+            padding-top: 50%;
+        }
+        div.discover-text {
+            padding: 25px 0 50% 0;
+        }
+    }
+    section.founder {
+        div.founder-image-container {
+            width: 75%;
+        }
+    }
+    section.gallery {
+        li {
+            padding: 10px;
+        }
+    }
+}

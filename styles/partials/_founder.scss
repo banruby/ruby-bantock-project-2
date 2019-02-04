@@ -13,6 +13,7 @@ section.founder {
     .founder-image-container {
         flex: 0 0 25%;
         box-shadow: 25px 25px $highlight;
+        align-self: flex-start;
     }
     .founder-text {
         margin-left: 10%;
