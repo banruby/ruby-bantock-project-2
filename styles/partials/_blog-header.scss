@@ -28,7 +28,13 @@ header.blog {
         margin-bottom: 40px;
     }
     .home a {
-        color: white; 
+        color: white;
+        &:hover {
+            color: $highlight;
+        }
+        &:focus {
+            color: $highlight;
+        } 
     }
     .blog a {
         color: $highlight;

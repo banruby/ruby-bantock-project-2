@@ -2,7 +2,7 @@ header {
     background: url(../assets/home-image-1.jpg) no-repeat;
     background-size: cover;
     color: $light;
-    height: 80vh;
+    height: 70vh;
     max-height: 800px;
     padding: 1px;
     position: relative;
@@ -36,17 +36,17 @@ header {
     ul li {
         display: inline;
         text-transform: uppercase;
+        font-weight: 600;
         a {
             padding: 20px;
         }
+        a:hover {
+            color: $highlight;
+        }
+        a:focus {
+            color: $highlight;
+        }
     }
-    // nav.home-nav i {
-    //     display: none;
-    //     @include font-size(50);
-    //     margin: 0;
-    //     padding: 0;
-    // }
-
     h2 {
         font-family: $heading-font;
         @include font-size(40);
