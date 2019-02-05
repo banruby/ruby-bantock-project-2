@@ -5,7 +5,6 @@ header.contact {
     position: relative;
     .nav-container {
         width: 100%;
-        background-color: $dark;
         padding: 5px 0;
         display: flex;
         justify-content: flex-start;
@@ -29,10 +28,13 @@ header.contact {
         width: 25%;
     }
     .home a {
-        color: $light; 
-    }
-    .blog a {
         color: $light;
+            &:visited {
+            color: $button-color;
+        }
+            &:hover {
+            color: $highlight;
+        } 
     }
     .contact a {
         color: $highlight;
@@ -46,4 +48,18 @@ header.contact {
         flex: 0 0 25%;
         padding: 5px 0;
     }
+}
+
+.home a {
+    color: $light; 
+}
+.blog a {
+    color: $light;
+    &:visited {
+        color: $button-color;
+    }
+    &:hover {
+        color: $highlight;
+    }
+    
 }

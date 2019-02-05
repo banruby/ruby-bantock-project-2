@@ -21,6 +21,9 @@ main.contact {
             border-bottom: 2px solid $button-color;
         }
     }
+    input[type=email]:focus, input[type=text]:focus {
+        border: 2px solid $highlight;
+    }
     aside {
         width: 28%;
         background-color: $light;
