@@ -872,6 +872,10 @@ main.contact {
     main.contact p.email {
       font-weight: 600;
       margin: 20px 0; }
+  main.contact p.email a {
+    color: #2c2c2c; }
+    main.contact p.email a:hover {
+      color: #0e902d; }
 
 @media only screen and (max-width: 1150px) {
   .nav-wrapper nav {

@@ -1,4 +1,3 @@
-
 @media only screen and (max-width: 1360px) {
     main.blog {
         .blog-image-container {
@@ -52,7 +51,6 @@
             position: static;
         }
         .blog-image-container {
-            // position: static;
             top: -100px;
             left: 0;
         }
@@ -170,7 +168,6 @@
         flex-direction: column;
         div.aside-left, div.aside-right {
             width: 100%;
-            
             }
         }   
     }

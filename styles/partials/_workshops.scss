@@ -2,9 +2,6 @@ section.workshops {
     width: 100%;
     div {
         width: 40%;
-        p {
-            // width: 90%;
-        }
     }
     h3 {
         @include font-size(32);

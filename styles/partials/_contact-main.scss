@@ -57,13 +57,13 @@ main.contact {
         margin: 0;
         &.email {
             font-weight: 600;
-            margin: 20px 0;
+            margin: 20px 0; 
+        }
+    }
+    p.email a {
+        color: $dark;
+        &:hover {
+            color: $button-color;
         }
     }
 }
-
-// footer {
-//     position: absolute;
-//     left: 0;
-//     right: 0;
-// }
