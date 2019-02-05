@@ -40,12 +40,12 @@ header {
             padding: 20px;
         }
     }
-    nav.home-nav i {
-        display: none;
-        @include font-size(50);
-        margin: 0;
-        padding: 0;
-    }
+    // nav.home-nav i {
+    //     display: none;
+    //     @include font-size(50);
+    //     margin: 0;
+    //     padding: 0;
+    // }
 
     h2 {
         font-family: $heading-font;

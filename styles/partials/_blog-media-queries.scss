@@ -1,0 +1,165 @@
+
+@media only screen and (max-width: 1360px) {
+    main.blog {
+        .blog-image-container {
+            top: -15%;
+        }
+        .blog-text {
+            padding-top: 175px;
+        }
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+
+}
+
+@media only screen and (max-width: 950px) {
+    main.blog {
+        .blog-image-container {
+            top: -10%;
+        }
+        .blog-text {
+            padding-top: 250px;
+        }
+    }
+    aside {
+        width: 30%;
+    }
+    main.blog {
+        .blog-content {
+            width: 65%;
+        }
+    } 
+}
+
+@media only screen and (max-width: 800px) {
+    header.blog {
+        .blog-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            h1 {
+                display: inline-block;
+                text-align: center;
+            }
+        }
+    }   
+    
+    main.blog {
+        .wrapper {
+            flex-direction: column;
+        }
+        .blog-content {
+            width: 100%;
+            padding: 50px;
+            position: static;
+        }
+        .blog-image-container {
+            position: static;
+        }
+        .blog-text {
+            margin-top: 0;
+            padding-top: 50px;
+            position: relative;
+            right: 20px;
+        }
+        aside {
+            width: 70%;
+            margin: 0 auto 50px auto;
+            margin-top: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            .aside-image-container {
+                direction: ltr;
+                width: 100%;
+                position: static;
+            }
+            img {
+                position: static;
+                width: 100%;
+            }
+        }
+        .aside-left, .aside-right {
+            padding-top: 25px;
+            width: 45%;
+        }
+        form button {
+            margin-bottom: 10px;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    header.blog {
+        nav {
+            height: 58px;
+            width: 100%;
+        }
+        ul {
+            width: 100%;
+        }
+    }
+    main.blog {
+        .blog-content {
+            padding: 50px 30px;
+        }
+    }
+    .blog-comments {
+        padding-left: 20px;
+        .comment-image-container {
+            width: 20%;
+        }
+        .comment-text-container {
+            width: 75%;
+        }
+    }
+    form {
+        input[type=text], input[type=email] {
+            width: 100%;
+        }
+    }
+}
+
+@media only screen and (max-width: 465px) {
+    header.blog .wrapper {
+        width: 100%;
+        nav {
+            justify-content: flex-end;
+        }
+    }
+    main.blog {
+        aside {
+            width: 85%;
+        }
+    }
+    header.blog {
+        .nav-container {
+            background-color: transparent;
+        }
+        nav i.fas {
+            display: block;
+            padding-right: 10px;
+        }
+        ul {
+            display: none;
+        }
+    } 
+}
+
+@media only screen and (max-width: 400px) {
+    main.blog {
+        aside {
+        width: 90%;
+        flex-direction: column;
+        div.aside-left, div.aside-right {
+            width: 100%;
+            
+            }
+        }   
+    }
+    p {
+        @include font-size(18);
+    }
+}

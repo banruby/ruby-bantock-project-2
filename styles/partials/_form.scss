@@ -8,7 +8,7 @@ form {
     input[type="text"] {
         width: 48%;
         background-color: $light;
-        border: none;
+        border: 2px solid $light;
         border-bottom: 2px solid $button-color;
         margin: 20px 0;
         padding: 20px;
@@ -20,7 +20,7 @@ form {
     input[type="email"] {
         width: 48%;
         background-color: $light;
-        border: none;
+        border: 2px solid $light;
         border-bottom: 2px solid $button-color;
         margin: 20px 0;
         padding: 20px;
@@ -43,6 +43,7 @@ form {
     button {
         width: 100%;
         margin: 20px 0 100px 0;
+        border: 2px solid $button-color;
         transition: all 1s ease;
         &:focus {
             background-color: $highlight;

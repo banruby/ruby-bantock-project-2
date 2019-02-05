@@ -72,12 +72,12 @@
             width: 350px;
             line-height: 60px;
         }
-        h2 {
-            display: none;
-        }
         ul {
             width: 100%;
         }
+    }
+    header h2 {
+        display: none;
     }
     section.workshops {
         div.flower-container-left {

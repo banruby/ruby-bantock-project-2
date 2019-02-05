@@ -31,7 +31,7 @@ a {
         color: $highlight;
     }
     &:visited {
-        color: $light;
+        color: $button-color;
     }
     &:focus {
         color: $highlight;
@@ -56,4 +56,11 @@ a.skip-link {
   &:focus {
      left: 0; 
   }
+}
+
+header nav i.fas {
+    display: none;
+    @include font-size(50);
+    margin: 0;
+    padding: 0;
 }

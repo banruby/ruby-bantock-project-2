@@ -16,6 +16,10 @@ main.contact {
     form {
         background-color: white;
         padding: 80px 40px;
+        input[type=email], input[type=text] {
+            border: 2px solid white;
+            border-bottom: 2px solid $button-color;
+        }
     }
     aside {
         width: 28%;
