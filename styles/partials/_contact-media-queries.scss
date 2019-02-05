@@ -81,10 +81,13 @@
         nav {
             justify-content: flex-end;
         }
-        .wrapper i {
+        i.fas {
             display: block;
-            padding-right: 10px;
+            padding: 10px;
             text-align: right;
+        }
+        i.fa-times {
+            display: none;
         }
     }
     main.contact {

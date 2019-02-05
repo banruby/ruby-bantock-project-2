@@ -6,6 +6,19 @@ header input {
     z-index: 50;
 }
 
+input[type=checkbox]:checked ~ label .fa-times {
+    display: block;
+    position: fixed;
+    right: 15px;
+    top: 0;
+    z-index: 15;
+    color: $highlight;
+}
+
+input[type=checkbox]:checked ~ label .fa-bars {
+    display: none;
+}
+
 input[type=checkbox]:checked ~ nav ul {
     display: flex;
     flex-direction: column;
@@ -18,7 +31,6 @@ input[type=checkbox]:checked ~ nav ul {
     height: calc(100vh - 150px);
     width: calc(100vw - 50px);
     background-color: rgba(44, 44, 44, 0.9);
-    
     z-index: 20;
     padding: 30% 0;
     li {

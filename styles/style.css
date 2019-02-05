@@ -219,6 +219,17 @@ input[type=checkbox] {
 header input {
   z-index: 50; }
 
+input[type=checkbox]:checked ~ label .fa-times {
+  display: block;
+  position: fixed;
+  right: 15px;
+  top: 0;
+  z-index: 15;
+  color: #f8e71c; }
+
+input[type=checkbox]:checked ~ label .fa-bars {
+  display: none; }
+
 input[type=checkbox]:checked ~ nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -936,6 +947,8 @@ main.contact {
       display: block;
       text-align: right;
       padding: 10px 10px; }
+    header.home label i.fa-times {
+      display: none; }
     header.home h1 {
       font-size: 60px;
       font-size: 3rem;
@@ -1060,10 +1073,12 @@ main.contact {
     width: 85%; }
   header.blog .nav-container {
     background-color: transparent; }
-  header.blog .wrapper i.fas {
+  header.blog i.fas {
     display: block;
-    padding: 10px;
+    padding: 10px 10px 0 0;
     text-align: right; }
+  header.blog i.fa-times {
+    display: none; }
   header.blog ul {
     display: none; } }
 
@@ -1149,10 +1164,12 @@ main.contact {
     -webkit-box-pack: end;
     -ms-flex-pack: end;
     justify-content: flex-end; }
-  header.contact .wrapper i {
+  header.contact i.fas {
     display: block;
-    padding-right: 10px;
+    padding: 10px;
     text-align: right; }
+  header.contact i.fa-times {
+    display: none; }
   main.contact aside {
     width: 60%;
     margin: 0 20%; } }
