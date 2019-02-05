@@ -1,0 +1,36 @@
+input[type=checkbox] {
+    display: none;
+}
+
+header input {
+    z-index: 50;
+}
+
+input[type=checkbox]:checked ~ nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 75px;
+    left: 25px;
+    right: 25px;
+    height: calc(100vh - 150px);
+    width: calc(100vw - 50px);
+    background-color: rgba(44, 44, 44, 0.9);
+    
+    z-index: 20;
+    padding: 30% 0;
+    li {
+        color: $dark;
+        @include font-size(40);
+    }
+}
+
+header {
+    label i.fas {
+        &:hover {
+            color: $highlight;
+        }
+    }
+}

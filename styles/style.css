@@ -192,7 +192,7 @@ a.skip-link {
   a.skip-link:focus {
     left: 0; }
 
-header nav i.fas {
+header i.fas {
   display: none;
   font-size: 50px;
   font-size: 2.5rem;
@@ -212,6 +212,42 @@ button {
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
+
+input[type=checkbox] {
+  display: none; }
+
+header input {
+  z-index: 50; }
+
+input[type=checkbox]:checked ~ nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: fixed;
+  top: 75px;
+  left: 25px;
+  right: 25px;
+  height: calc(100vh - 150px);
+  width: calc(100vw - 50px);
+  background-color: rgba(44, 44, 44, 0.9);
+  z-index: 20;
+  padding: 30% 0; }
+  input[type=checkbox]:checked ~ nav ul li {
+    color: #2c2c2c;
+    font-size: 40px;
+    font-size: 2rem; }
+
+header label i.fas:hover {
+  color: #f8e71c; }
 
 header {
   background: url(../assets/home-image-1.jpg) no-repeat;
@@ -896,10 +932,10 @@ main.contact {
       justify-content: flex-end; }
     header.home ul {
       display: none; }
-    header.home nav.home-nav i {
+    header.home label i.fas {
       display: block;
       text-align: right;
-      padding: 0 10px; }
+      padding: 10px 10px; }
     header.home h1 {
       font-size: 60px;
       font-size: 3rem;
@@ -1024,9 +1060,10 @@ main.contact {
     width: 85%; }
   header.blog .nav-container {
     background-color: transparent; }
-  header.blog nav i.fas {
+  header.blog .wrapper i.fas {
     display: block;
-    padding-right: 10px; }
+    padding: 10px;
+    text-align: right; }
   header.blog ul {
     display: none; } }
 
@@ -1112,9 +1149,10 @@ main.contact {
     -webkit-box-pack: end;
     -ms-flex-pack: end;
     justify-content: flex-end; }
-  header.contact nav i {
+  header.contact .wrapper i {
     display: block;
-    padding-right: 10px; }
+    padding-right: 10px;
+    text-align: right; }
   main.contact aside {
     width: 60%;
     margin: 0 20%; } }

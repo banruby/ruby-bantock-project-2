@@ -81,9 +81,10 @@
         nav {
             justify-content: flex-end;
         }
-        nav i {
+        .wrapper i {
             display: block;
             padding-right: 10px;
+            text-align: right;
         }
     }
     main.contact {
