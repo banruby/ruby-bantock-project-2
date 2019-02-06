@@ -702,9 +702,11 @@ aside {
     font-weight: 600; }
     aside .aside-left a:hover {
       color: #f8e71c; }
-  aside .aside-right a:hover {
-    color: #0e902d;
-    text-decoration: underline; }
+  aside .aside-right ul a {
+    color: #074115; }
+    aside .aside-right ul a:hover {
+      color: #0e902d;
+      text-decoration: underline; }
   aside ul {
     padding-left: 20px;
     margin-top: 20px; }

@@ -27,7 +27,8 @@ aside {
             color: $highlight;
         }
     }
-    .aside-right a {
+    .aside-right ul a {
+        color: $lowlight;
         &:hover {
             color: $button-color;
             text-decoration: underline;
