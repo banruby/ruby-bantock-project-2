@@ -127,6 +127,7 @@
         width: 100%;
         nav {
             justify-content: flex-end;
+            width: 95%;
         }
     }
     main.blog {
@@ -140,11 +141,12 @@
         }
         i.fas {
             display: block;
-            padding: 10px 10px 0 0;
             text-align: right;
+            padding: 10px 20px;
         }
         i.fa-times {
             display: none;
+            padding: 10px;
         }
         ul { //visually hidden
             position: absolute; 

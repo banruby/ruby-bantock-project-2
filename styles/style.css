@@ -702,6 +702,9 @@ aside {
     font-weight: 600; }
     aside .aside-left a:hover {
       color: #f8e71c; }
+  aside .aside-right a:hover {
+    color: #0e902d;
+    text-decoration: underline; }
   aside ul {
     padding-left: 20px;
     margin-top: 20px; }
@@ -867,6 +870,8 @@ main.contact {
       color: #0e902d; }
     main.contact .icon-bar a:focus {
       color: #f8e71c; }
+    main.contact .icon-bar a:hover {
+      color: #074115; }
   main.contact p {
     margin: 0; }
     main.contact p.email {
@@ -1116,17 +1121,19 @@ main.contact {
     header.blog .wrapper nav {
       -webkit-box-pack: end;
       -ms-flex-pack: end;
-      justify-content: flex-end; }
+      justify-content: flex-end;
+      width: 95%; }
   main.blog aside {
     width: 85%; }
   header.blog .nav-container {
     background-color: transparent; }
   header.blog i.fas {
     display: block;
-    padding: 10px 10px 0 0;
-    text-align: right; }
+    text-align: right;
+    padding: 10px 20px; }
   header.blog i.fa-times {
-    display: none; }
+    display: none;
+    padding: 10px; }
   header.blog ul {
     position: absolute;
     width: 1px;

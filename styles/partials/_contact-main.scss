@@ -52,6 +52,9 @@ main.contact {
         a:focus {
             color: $highlight;
         }
+        a:hover {
+            color: $lowlight;
+        }
     }
     p {
         margin: 0;
