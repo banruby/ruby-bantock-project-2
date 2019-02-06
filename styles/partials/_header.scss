@@ -51,7 +51,7 @@ header {
         font-family: $heading-font;
         @include font-size(40);
         width: 25%;
-
+        font-weight: 400;
     }
     .home a {
         color: $highlight;
