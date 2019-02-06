@@ -47,5 +47,17 @@ header.blog {
     h2 {
         flex: 0 0 25%;
         padding: 5px 0;
+        a {
+            color: white;
+            &:hover {
+                color: white;
+            }
+            &:focus {
+                color: $highlight;
+            }
+            &:active {
+                color: $highlight;
+            }
+        }
     }
 }

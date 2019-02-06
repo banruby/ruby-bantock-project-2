@@ -27,7 +27,7 @@ aside {
             color: $highlight;
         }
     }
-    .aside-right ul a {
+    .aside-right a {
         color: $lowlight;
         &:hover {
             color: $button-color;
@@ -35,11 +35,20 @@ aside {
         }
     }
     ul {
-    padding-left: 20px;
+    padding-left: 5px;
     margin-top: 20px;
         li {
-            list-style-type: disc;
+            list-style-type: none;
             line-height: 32px;
+        }
+        li::before {
+            content: "";
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            background-color: $button-color;
+            display: inline-block;
+            margin:0 10px 4px 0;
         }
     }    
 }

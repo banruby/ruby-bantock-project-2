@@ -50,6 +50,18 @@ header.contact {
     h2 {
         flex: 0 0 25%;
         padding: 5px 0;
+        a {
+            color: white;
+            &:focus {
+                color: $highlight;
+            }
+            &:hover {
+                color: white;
+            }
+            &:active {
+                color: $highlight;
+            }
+        }
     }
 }
 

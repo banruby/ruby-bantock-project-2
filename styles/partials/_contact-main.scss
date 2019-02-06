@@ -68,5 +68,9 @@ main.contact {
         &:hover {
             color: $button-color;
         }
+        &:focus {
+            color: $button-color;
+            text-decoration: underline;
+        }
     }
 }
